@@ -28,5 +28,10 @@ text-decoration: none;
 nav ul{
 display: flex;
 list-style: none;
-column-gap: 11px;
+column-gap: 19px;
+cursor: pointer;
+}
+nav ul li a:hover{
+color: #dea54b;
+
 }
