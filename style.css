@@ -1,0 +1,32 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+.container{
+padding-left: 7%;
+padding-right: 7%;
+background-image: url(m.jpg);
+height: 100vh;
+width: 100%;
+background-position: center;
+background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li a{
+color: #c33c54;
+text-decoration: none;
+}
+.fa-bars-progress{
+    color: #dea54b;
+}
+nav ul{
+display: flex;
+list-style: none;
+column-gap: 11px;
+}
