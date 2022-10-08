@@ -7,11 +7,36 @@ box-sizing: border-box;
 .container{
 padding-left: 7%;
 padding-right: 7%;
-background-image: url(m.jpg);
+background-image: url(yunus.jpg);
 height: 100vh;
 width: 100%;
 background-position: center;
 background-size: cover;
+}
+p{
+font-size: 11px;
+color: #F5F0F6;
+line-height: 17px;
+
+}
+.btn{
+padding: 13px 29px;
+font-size: 13px;
+font-weight: 700;
+border-radius: 13px;
+margin-top: 23px;
+cursor: pointer;
+text-decoration: none;
+color: #011627;
+background-color: #dea54b;
+border: 1px solid #519872;
+transition: 0.5s;
+}
+.btn:hover{
+background-color: #7c7a7a;
+color: #dea54b;
+border-color: #FFFFFF;
+
 }
 .navbar{
     display: flex;
@@ -19,11 +44,15 @@ background-size: cover;
     align-items: center;
 }
 nav ul li a{
-color: #c33c54;
+color: #dea54b;
 text-decoration: none;
+transition: 0.7s;
 }
 .fa-bars-progress{
     color: #dea54b;
+}
+.fa-bars-progress:hover{
+    color: #7c7a7a;
 }
 nav ul{
 display: flex;
@@ -32,6 +61,160 @@ column-gap: 19px;
 cursor: pointer;
 }
 nav ul li a:hover{
-color: #dea54b;
+color: #519872;
 
 }
+.row{
+    display: flex;
+    column-gap: 11px;
+    height: 88%;
+    align-items: center;
+}
+h1{
+color:  #F5F0F6;
+font-size: 101px;
+}
+.desc{
+    font-size: 17px;
+}
+.col{
+    flex-basis: 50%;
+}
+.card{
+    background-image: url(t.webp);
+width: 199px;
+height: 229px;
+
+display: inline-block;
+background-size:cover;
+border-radius: 11px;
+padding: 13px 23px;
+cursor: pointer;
+border: 1px solid #519872;
+position: relative;
+transition: 0.7s;
+margin: 11px 13px;
+}
+.card:hover{
+transform: translateY(-11px);
+border-color: #7c7a7a;
+}
+.card .card-head{
+color: #dea54b; 
+border-radius: 7px;
+padding: 7px;
+}
+.card .card-bottom{
+    position: absolute;
+    bottom: 23px;
+
+
+}
+.card .card-head p{
+    color: #7cdf64;
+}
+.cards{
+max-width: 499px;
+margin: auto; 
+}
+.card1{
+    background-image: url(wolf.jpg);
+    width: 199px;
+height: 229px;
+
+display: inline-block;
+background-size:199px 229px;
+border-radius: 11px;
+padding: 13px 23px;
+cursor: pointer;
+border: 1px solid #519872;
+position: relative;
+transition: 0.7s;
+margin: 11px 13px;
+}
+.card2{
+    background-image: url(Aud.jpg);
+    width: 199px;
+height: 229px;
+
+display: inline-block;
+background-size:199px 229px;
+border-radius: 11px;
+padding: 13px 23px;
+cursor: pointer;
+border: 1px solid #519872;
+position: relative;
+transition: 0.7s;
+margin: 11px 13px;
+}
+.card3{
+    background-image: url(bm.webp);
+    width: 199px;
+height: 229px;
+
+display: inline-block;
+background-size:199px 229px;
+border-radius: 11px;
+padding: 13px 23px;
+cursor: pointer;
+border: 1px solid #519872;
+position: relative;
+transition: 0.7s;
+margin: 11px 13px;
+}
+.card1:hover{
+    transform: translateY(-11px);
+    border-color: #7c7a7a;
+    }
+    .card1 .card-head{
+    color: #dea54b; 
+    border-radius: 7px;
+    padding: 7px;
+    }
+    .card1 .card-bottom{
+        position: absolute;
+        bottom: 23px;
+    
+    
+    }
+    .card1 .card-head p{
+        color: #7cdf64;
+    }
+    .card2:hover{
+        transform: translateY(-11px);
+        border-color: #7c7a7a;
+        }
+        .card2 .card-head{
+        color: #dea54b; 
+        border-radius: 7px;
+        padding: 7px;
+        }
+        .card2 .card-bottom{
+            position: absolute;
+            bottom: 23px;
+        
+        
+        }
+        .card2 .card-head p{
+            color: #7cdf64;
+        }
+        .card3:hover{
+            transform: translateY(-11px);
+            border-color: #7c7a7a;
+            }
+            .card3 .card-head{
+            color: #dea54b; 
+            border-radius: 7px;
+            padding: 7px;
+            }
+            .card3 .card-bottom{
+                position: absolute;
+                bottom: 23px;
+            
+            
+            }
+            .card3 .card-head p{
+            color: #7cdf64;
+    
+           
+            }
